@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:display=swap');
+:root{
+    --font: 'Inter', sans-serif;
+    --bg-pattern: hsl(230, 17%, 14%);
+    --bg-top-pattern: hsl(232, 19%, 15%);
+    --cardbg-pattern: hsl(228, 28%, 20%);
+    --blue-text-: hsl(228, 34%, 66%);
+    --main-text: hsl(0, 0%, 100%);
+    --hover-effect: hsl(228, 28%, 25%);
+    --card-light: rgb(22, 29, 59);
+     
+}
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid hotpink; */
+    /* background-color: yellow; */
+}
+
+html {
+     box-sizing: border-box;
+     font-size: 10px;
+     font-family: var(--font)
+
+}
+[data-theme="light"] {
+    /* Light theme color variables */
+    --bg-pattern: hsl(0, 0%, 100%);
+    --card-light:  hsl(223, 19%, 93%);
+    --bg-top-pattern: hsl(225, 100%, 98%);
+    --cardbg-pattern: hsl(227, 47%, 96%);
+    --blue-text-: hsl(228, 12%, 44%);
+    --main-text: hsl(230, 17%, 14%);
+    --hover-effect: hsl(227, 47%, 90%);
+}
+
+
+
+body{
+    max-width: 100%;
+    background: var(--bg-pattern);
+    max-height: 100%;
+    -webkit-user-select: none;
+    color: white;
+}
+
+
+ main{
+    max-width: 100%;
+    max-height: 100%;
+    color: var(--main-text);
+    font-size: 1.4rem;
+    /* margin: 0; */
+}
+
+
+ h3{
+    color: var(--blue-text-);
+    margin-top: .3rem;
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+}
+
+.media{
+    background-color: var(--bg-top-pattern);
+    max-width: 100%;
+    height: 300px;
+    padding: 6rem 15rem;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+
+
+.cards{
+    margin: auto 15rem;
+    margin-top: -10rem;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.card{
+    border: 1px solid transparent;
+    text-align: center;
+    max-width: 70%;
+    max-height: 100%;
+    padding: 2rem 4rem;
+    border-radius: 5px;
+    background-color: var(--cardbg-pattern);
+    border-top: 6px solid royalblue;
+}
+
+.up{
+    color: rgb(55, 216, 125);
+}
+
+.h5{
+    color: var(--blue-text-);
+}
+
+p{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+img{
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+
+.num{
+    font-size: 6rem;
+    font-weight: 700;
+
+}
+
+.follower{
+    margin-top: -.5rem;
+    font-size: 100;
+    margin-bottom: 2.5rem;
+    color: var(--blue-text-);
+    letter-spacing: 6px;
+    font-size: 1.6rem;
+}
+
+.pink{
+    background-color: var(--card-light);
+    border-top: 6px solid hotpink;
+}
+
+.red{
+    border-top: 6px solid red;
+}
+
+.down{
+    color: red;
+}
+
+h2{
+    font-size: 2rem;
+    margin: 5rem 15rem 2rem 15rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.cardover{
+    margin: auto 15rem;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    
+}
+
+.over{
+    border: 1px solid transparent;
+    max-width: 70%;
+    max-height: 100%;
+    padding: 2rem 2.5rem;
+    border-radius: 5px;
+    background-color: var(--cardbg-pattern);
+}
+
+h6{
+    color: var(--blue-text-);
+    font-size: 1.4rem;
+    font-weight: 300;
+
+}
+
+img[alt="facebook"]{
+    padding-left: 10rem;
+}
+
+.numb{
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-weight: 200;
+    color: var(--main-text);
+}
+
+.span{
+    margin-left: 10rem;
+    font-size: 1.2rem;
+}
+
+.likes{
+    letter-spacing: 1px;
+    margin-left: 1rem;
+}
+
+.likess{
+    background-color: var(--card-light);
+    
+}
+
+img[alt="inst"]{
+    padding-left: 13rem;
+}
+
+.cardovers{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 15rem
+}
+
+
+  .dark{
+      float: right;
+      margin-top: -9rem;
+      display: flex;
+      align-items: baseline;
+  }
+
+  .dark p{
+      margin-right: 1rem;
+  }
+
+  label{
+      margin-top: 5rem;
+  }
+
+
+   .switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+ .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+ .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .2s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    line-height: 2;
+    bottom: 4px;
+    background-color:  #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider{
+    background-color: lightgreen;
+}
+ input:checked+.slider:before {
+    transform: translateX(26px);
+}
+
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}

@@ -1,0 +1,82 @@
+.media{
+    padding: 3rem 2rem;
+    text-transform: capitalize;
+}
+
+h1{
+     font-size: 2rem;
+}
+
+.cards{
+    margin: auto 7rem;
+    margin-top: -9rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: row;
+}
+
+
+.num{
+    font-size: 6rem;
+    font-weight: 700;
+
+}
+
+.cards > .card{
+    flex-basis: auto;
+    margin: 1rem;
+}
+
+.follower{
+    margin-bottom: 2.5rem;
+    color: var(--dark-grayblue);
+    letter-spacing: 6px;
+    font-size: 1.6rem;
+}
+
+h2{
+    margin: 2rem 10rem 2rem 10rem;
+}
+
+.cardover{
+    margin: auto 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: space-between;
+    flex-direction: row;
+}
+
+.cardover > .over{
+    flex-basis: auto;
+    margin: 1rem;
+}
+
+.over{
+    max-width: 70%;
+    padding: 1rem 1.5rem;
+}
+
+img[alt="facebook"]{
+    padding-left: 9rem;
+}
+
+.cardovers{
+    margin: auto 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: space-between;
+    flex-direction: row;
+}
+
+.cardovers > .over{
+    flex-basis: auto;
+    margin: 1rem;
+}
+
+
+
+
+
