@@ -1,6 +1,6 @@
 .media{
     padding: 3rem 2rem;
-    text-transform: capitalize;
+    height: 200px;
 }
 
 h1{
@@ -17,7 +17,7 @@ h1{
 }
 
 .card{
-    max-width: 100%;
+    max-width: 70%;
 }
 
 .num{
@@ -52,7 +52,7 @@ h2{
 }
 
 .cardover > .over{
-    flex-basis: auto;
+    flex-basis: stretch;
     margin: 1rem;
 }
 
@@ -78,10 +78,4 @@ img[alt="facebook"]{
     flex-basis: auto;
     margin: 1rem;
 }
-
-
-@media only screen and (max-width: 380px){
-    
-}
-
 

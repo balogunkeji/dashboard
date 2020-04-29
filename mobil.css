@@ -1,14 +1,13 @@
 .media{
-    padding: 3rem 2rem;
-    text-transform: capitalize;
+    display: block;
 }
 
 h1{
-     font-size: 2rem;
+     font-size: 1rem;
 }
 
 .cards{
-    margin: auto 7rem;
+    margin: auto;
     margin-top: -5rem;
     display: flex;
     flex-wrap: wrap;
@@ -21,8 +20,7 @@ h1{
 }
 
 .num{
-    font-size: 6rem;
-    font-weight: 700;
+    font-size: 4rem;
 
 }
 
@@ -43,7 +41,7 @@ h2{
 }
 
 .cardover{
-    margin: auto 7rem;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
@@ -57,7 +55,7 @@ h2{
 }
 
 .over{
-    max-width: 70%;
+    max-width: 100%;
     padding: 1rem 1.5rem;
 }
 
@@ -78,10 +76,3 @@ img[alt="facebook"]{
     flex-basis: auto;
     margin: 1rem;
 }
-
-
-@media only screen and (max-width: 380px){
-    
-}
-
-
