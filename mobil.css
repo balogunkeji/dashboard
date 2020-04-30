@@ -22,7 +22,7 @@ h1{
 }
 
 .num{
-    font-size: 5.5rem;
+    font-size: 6rem;
 
 }
 
@@ -46,7 +46,7 @@ h2{
 .dark{
     display: block;
     margin-top: -4rem;
-    margin-right: 18rem;
+    margin-right: 18.5rem;
     display: flex;
     align-items: baseline;
 }
