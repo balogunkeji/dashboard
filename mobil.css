@@ -2,13 +2,15 @@
     display: block;
 }
 
+
 h1{
      font-size: 2rem;
 }
 
 .cards{
-    margin: auto 7rem;
+    margin: auto 2.5rem;
     margin-top: -5rem;
+    margin-left: 4rem;
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
@@ -20,7 +22,7 @@ h1{
 }
 
 .num{
-    font-size: 4rem;
+    font-size: 6rem;
 
 }
 
@@ -33,7 +35,7 @@ h1{
     margin-bottom: 2.5rem;
     color: var(--dark-grayblue);
     letter-spacing: 6px;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 
 h2{
@@ -43,14 +45,16 @@ h2{
 
 .dark{
     display: block;
-    margin-top: 2rem;
+    margin-top: -4rem;
+    margin-right: 15rem;
     display: flex;
     align-items: baseline;
 }
 
 .cardover{
-    margin: auto 2rem;
+    margin: auto 2.5rem;
     display: flex;
+    margin-left: 4rem;
     flex-wrap: wrap;
     align-items: stretch;
     align-content: space-between;
@@ -71,9 +75,15 @@ img[alt="facebook"]{
     padding-left: 9rem;
 }
 
+h2{
+    font-size: 1.6rem;
+    margin: 3rem 5rem 2rem 5rem;
+}
+
 .cardovers{
-    margin: auto 2rem;
+    margin: auto 2.5rem;
     display: flex;
+    margin-left: 4rem;
     flex-wrap: wrap;
     align-items: stretch;
     align-content: space-between;
@@ -83,4 +93,11 @@ img[alt="facebook"]{
 .cardovers > .over{
     flex-basis: auto;
     margin: 1rem;
+}
+
+.numb{
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-weight: 200;
+    color: var(--main-text);
 }
