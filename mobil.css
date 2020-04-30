@@ -22,7 +22,7 @@ h1{
 }
 
 .num{
-    font-size: 5rem;
+    font-size: 5.5rem;
 
 }
 
@@ -46,7 +46,7 @@ h2{
 .dark{
     display: block;
     margin-top: -4rem;
-    margin-right: 16rem;
+    margin-right: 18rem;
     display: flex;
     align-items: baseline;
 }
@@ -77,13 +77,13 @@ img[alt="facebook"]{
 
 h2{
     font-size: 1.6rem;
-    margin: 3rem 5rem 2rem 5rem;
+    margin: 3rem 5rem 2rem 6rem;
 }
 
 .cardovers{
     margin: auto 2.5rem;
     display: flex;
-    margin-left: 4rem;
+    margin-left: 5rem;
     flex-wrap: wrap;
     align-items: stretch;
     align-content: space-between;
