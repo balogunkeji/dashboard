@@ -258,13 +258,13 @@ img[alt="inst"]{
     left: 4px;
     line-height: 2;
     bottom: 4px;
-    background-color:  #fff;
+    background-color:  black;
     -webkit-transition: .4s;
     transition: .4s;
 }
 
 input:checked+.slider{
-    background-color: lightgreen;
+    background-color:  rgb(55, 216, 125);
 }
  input:checked+.slider:before {
     transform: translateX(26px);
