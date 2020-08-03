@@ -18,16 +18,15 @@ function switchButton(e){
     } 
     else{
         document.documentElement.setAttribute('data-theme', 'dark');
-        window.localStorage.setItem('theme','dark');
+        window.localStorage.setItem('theme', JSON.stringify('dark'));
     }
 }
-s
 const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
 
 if (currentTheme) {
     document.documentElement.setAttribute('data-theme', 'currentTheme');
 
-    if (currentTheme === 'dark'){
+    if (currentTheme === 'light'){
 
         toggleSwitch.checked = true;
     }

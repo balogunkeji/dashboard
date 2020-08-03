@@ -24,7 +24,8 @@
 html {
      box-sizing: border-box;
      font-size: 10px;
-     font-family: var(--font)
+     font-family: var(--font);
+     visibility: visible;
 
 }
 [data-theme="light"] {
@@ -138,7 +139,7 @@ img{
 }
 
 .down{
-    color: red;
+    color: #f9a7af;
 }
 
 h2{
@@ -246,7 +247,6 @@ img[alt="inst"]{
     right: 0;
     bottom: 0;
     background-color: #ccc;
-    -webkit-transition: .2s;
     transition: .4s;
 }
 
@@ -259,7 +259,6 @@ img[alt="inst"]{
     line-height: 2;
     bottom: 4px;
     background-color:  black;
-    -webkit-transition: .4s;
     transition: .4s;
 }
 
