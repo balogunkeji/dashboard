@@ -10,7 +10,7 @@ function switchButton(e){
         document.documentElement.setAttribute('data-theme', 'light');
     }
 }
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 function switchButton(e){
     if(e.target.checked){
         document.documentElement.setAttribute('data-theme', 'light');
